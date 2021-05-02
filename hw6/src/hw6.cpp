@@ -50,8 +50,6 @@ int main(int argc, char **argv)
 		x2.current = x2.last + x2_dot*dt;
 		x1.last = x1.current;
 		x2.last = x2.current;
-		float s = x1.current;
-		ROS_INFO("Position:%f",s);
 		/*Following codes are implemented with numerical integration
 		 *x(k+1) = x(k) + x_dot * dt;
 		 *
